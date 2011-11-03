@@ -1,3 +1,9 @@
+# revision 18835
+# category Package
+# catalog-ctan /graphics/fig4latex
+# catalog-date 2009-11-09 22:14:03 +0100
+# catalog-license gpl3
+# catalog-version 0.2
 Name:		texlive-fig4latex
 Version:	0.2
 Release:	1
@@ -48,6 +54,7 @@ method. An example document (with its output) is provided.
 %doc %{_texmfdistdir}/doc/support/fig4latex/example.tex
 %doc %{_texmfdistdir}/doc/support/fig4latex/figs/div_alg_flowchart.fig
 %doc %{_texmfdistdir}/doc/support/fig4latex/figs/if-then_flowchart.fig
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
