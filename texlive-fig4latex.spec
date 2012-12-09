@@ -59,3 +59,21 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-3
++ Revision: 812258
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 751835
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 718432
+- texlive-fig4latex
+- texlive-fig4latex
+- texlive-fig4latex
+- texlive-fig4latex
+
