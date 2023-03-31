@@ -1,6 +1,6 @@
 Name:		texlive-fig4latex
 Version:	26313
-Release:	1
+Release:	2
 Summary:	Management of figures for large LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/fig4latex
