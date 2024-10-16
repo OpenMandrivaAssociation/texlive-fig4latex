@@ -3,7 +3,7 @@ Version:	26313
 Release:	2
 Summary:	Management of figures for large LaTeX documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/fig4latex
+URL:		https://www.ctan.org/tex-archive/graphics/fig4latex
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fig4latex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fig4latex.doc.r%{version}.tar.xz
