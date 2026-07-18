@@ -1,5 +1,6 @@
 %global tl_name fig4latex
 %global tl_revision 26313
+%global tl_bin_links fig4latex:%{_texmfdistdir}/scripts/fig4latex/fig4latex
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(fig4latex.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 Fig4LaTeX simplifies management of the figures in a large LaTeX
